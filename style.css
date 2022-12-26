@@ -1,0 +1,91 @@
+body {
+    /* Nicked this from Bootstrap, thanks! */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin: auto;
+    font-size: 130%;
+    width: 40%;
+    line-height: 2.1em;
+}
+
+/* Main header */
+h1 {
+    font-size: 2em;
+}
+
+/* Secondary header */
+h2 {
+    margin-top: 25px;
+}
+
+/* Straight line */
+hr {
+    margin: 70px 0 0 0;
+    background: #d5d5d5;
+    border: none;
+    height: 1px;
+}
+
+/* Couldn't help myself with the hyperlinks! */
+a {
+    border-bottom: 2px solid #009fecd9;
+    color: black;
+    transition: background-color .25s cubic-bezier(.33, .66, .66, 1);
+    text-decoration: none;
+    padding: 2px;
+}
+
+a:hover, a:focus, a:active {
+    background-color: rgb(0 159 236 / 0.2);
+}
+
+/* Photo of me */
+.me {
+    width: 300px;
+    height: 207px;
+}
+
+/* Top section */
+.header {
+    margin-top: 5%;
+}
+
+/* Primary menu */
+.nav_menu {
+    margin-bottom: 15%;
+}
+
+/* Primary menu items */
+.nav_menu a {
+    margin-right: 5px;
+}
+
+/* Footer section */
+section.contact_me {
+    margin-bottom: 10%;
+}
+
+/* Quote */
+blockquote {
+    border-left: 1px solid #0073aa;
+    padding-left: 1.5em;
+    margin-left: 0;
+    border-width: 2px;
+}
+
+/* Mobile friendly */
+@media only screen and (max-width: 1040px) {
+    body {
+        width: 90%;
+    }
+
+    .title_pic {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    /* Top section */
+    .header {
+        margin-top: 5%;
+    }
+
+}
